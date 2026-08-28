@@ -3,8 +3,8 @@
 ## Product
 Coverage Gap Advisor - Inusrance Tech
 
-**Product:**
-**Your Role:**
+**Product:** Lily
+**Your Role:** VP, Product
 
 ---
 
