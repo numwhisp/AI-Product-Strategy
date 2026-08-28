@@ -38,7 +38,7 @@ Coverage Gap Advisor - Inusrance Tech
 ---
 
 ## Top Vulnerability
-<!-- One line: what's the single biggest strategic risk? -->
+Domain Context is a rented advantage, not an owned one — Coverage Gap Advisor's predictions run on proxy signals from bank transaction data instead of real risk data, and Microsoft can neutralize that entire loop in one Verisk licensing deal bundled into Copilot for Financial Services, which banks already pay for.
 
 ## Confidence Level
-<!-- H / M / L — how confident are you in this bet after the diagnostic? -->
+Medium — the B2B embed and the broker relationship are real, defensible moats (Contextual Moat and Platform Exposure both scored 4/5), but the bet currently depends on a data advantage that isn't VIU's to lose slowly — it's Microsoft's to take fast. Confidence goes to H only if Domain Context gets fixed before a renewal cycle turns this from a stress-test into an actual pitch a bank hears.
