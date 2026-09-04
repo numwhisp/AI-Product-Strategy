@@ -9,7 +9,7 @@ Assumptions flagged where estimated — structure over false precision, per the 
 | Infrastructure | $0.025 | Hosting, vector lookups for signal matching |
 | Data/storage | $0.015 | Account-signal ingestion, retention logs |
 | Human-in-the-loop | $0.060 | Broker QA sampling — this is also the fix for the Correction Loop from M2 |
-| **Total AI COGS** | | |
+| **Total AI COGS** | $0.163/user/month	 | |
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
