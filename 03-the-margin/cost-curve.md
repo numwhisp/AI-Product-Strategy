@@ -1,5 +1,5 @@
-# Cost Curve & Pricing Strategy
-
+# Cost Curve & Pricing Strategy - Coverage Gap Advisor
+Assumptions flagged where estimated — structure over false precision, per the module's own rule.
 ## Cost Model
 
 | Cost Category | Per-User/Month | Notes |
