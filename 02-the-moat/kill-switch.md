@@ -7,7 +7,7 @@
 | **Provider** |Single-provider — Azure OpenAI, the default choice given bank partners are frequently already Microsoft shops. | H  | Not fixable in 48 hours — this is the audit's core finding, not a quick patch.|
 | **Abstraction** |Direct API calls in product code — gap-detection logic and broker-facing copy generation both call the provider SDK directly. | H | Stand up a thin internal interface (generateGapFlag(), draftBrokerSummary()) so product code stops calling the SDK directly — decouples the call site without needing a new provider yet.|
 | **Routing** |No routing layer — one model handles both gap-detection inference and broker-copilot text generation, no fallback path. | H |Identify one lower-cost/open-weight model as a documented fallback candidate — a manual failover plan beats none. |
-| **Eval** |Informal — spot-checked broker feedback, no automated quality bar. | H | Pull 20–30 recent flagged gaps and their broker outcomes into a starter golden set — the seed of a real eval harness.|
+| **Eval** |Informal — spot-checked broker feedback, no automated quality bar. | M | Pull 20–30 recent flagged gaps and their broker outcomes into a starter golden set — the seed of a real eval harness.|
 
 ## Portability Score
 Locked
