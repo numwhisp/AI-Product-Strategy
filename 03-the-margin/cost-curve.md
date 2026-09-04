@@ -4,11 +4,11 @@ Assumptions flagged where estimated — structure over false precision, per the 
 
 | Cost Category | Per-User/Month | Notes |
 |--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
+| Inference (primary model) | $0.045 | ~3 requests/user/month avg for detection + explanation |
+| Inference (cascading/triage) | $0.018 | Only fires for the ~20% of leads that get claimed by a broker |
+| Infrastructure | $0.025 | Hosting, vector lookups for signal matching |
+| Data/storage | $0.015 | Account-signal ingestion, retention logs |
+| Human-in-the-loop | $0.060 | Broker QA sampling — this is also the fix for the Correction Loop from M2 |
 | **Total AI COGS** | | |
 
 ## Cascading Strategy
