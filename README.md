@@ -52,7 +52,7 @@
 **Will this make money or bleed it?**
 
 - **Gross Margin (current):** ~84% (traditional commission model, no AI)
-- **Gross Margin (AI-adjusted):** ~84% (traditional commission model, no AI)
+- **Gross Margin (AI-adjusted):** ~84.4% (96.7% at the AI-COGS layer specifically; holds at ~94% even under 3x inference-cost stress)
 - **Pricing Model:** Hybrid — $2,500/mo base + $0.75 per AI-flagged, broker-claimed lead + existing $150/bound-policy commission. Outcome-based alternative modeled (Intercom-style, $300/AI-attributed bind, $0 base) as a stronger sales pitch with a materially higher revenue-risk profile.
 - **Cascading Strategy:** 80/20 split — Small/Mid tier handles detection and explanation; Frontier tier reserved for broker-claimed leads only. Chosen for margin, not for cutting quality on leads a human already decided were worth pursuing.
 - **Break-even at:** Well below current volume — AI COGS ($0.163–$0.18/user/month) is a small fraction of the $2,500 base fee; the real cost driver is human-in-the-loop review, not inference.
